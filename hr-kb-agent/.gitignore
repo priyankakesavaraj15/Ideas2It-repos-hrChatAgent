@@ -1,0 +1,11 @@
+# Secrets - never commit
+.env
+
+# Local environment and generated data (recreate with: python seed.py)
+.venv/
+__pycache__/
+.pytest_cache/
+hr.db
+chroma/
+logs/
+evals/results.md
